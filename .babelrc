@@ -1,0 +1,14 @@
+{
+	"plugins": ["transform-decorators-legacy", "transform-class-properties"],
+	"presets": ["es2015", "react", "stage-0"],
+	"env": {
+        "test": {
+			"plugins": ["transform-decorators-legacy"],
+			"presets": ["es2015", "react", "stage-0"]
+         },
+        "production": {
+            "presets": ["es2015", "react", "stage-3", "flow"],
+			"plugins": ["transform-function-bind"]
+      }
+    }
+}

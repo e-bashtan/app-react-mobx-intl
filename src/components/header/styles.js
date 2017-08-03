@@ -2,8 +2,8 @@ import styled, {keyframes} from 'styled-components';
 
 export const HeaderContainer = styled.div`
   background-color: white;
-  height: 150px;
-  padding: 20px;
+
+  //margin: 20px;
   color: white;
 `;
 
@@ -17,4 +17,7 @@ export const Logo = styled.img`
   height: 80px;
 `;
 
-
+export const H2 = styled.div`
+  color: black;
+  margin: 20px;
+`;

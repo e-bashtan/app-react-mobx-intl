@@ -1,4 +1,13 @@
+/* @flow */
+
 import React, {Component} from 'react';
+
+type Props = {
+  title?: string,
+  text?: string,
+  'class'?: Object,
+  sheet: Object
+};
 
 class Counter extends Component{
   render(){
